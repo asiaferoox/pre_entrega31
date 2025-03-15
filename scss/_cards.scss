@@ -1,0 +1,20 @@
+// _cards.scss
+@import "variables";
+
+.card {
+  background-color: $color-secundario;
+  color: white;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: darken($color-secundario, 10%);
+  }
+}
+
+@use "variables";
+
+.cards {
+    background-color: variables.$color-secundario;
+}

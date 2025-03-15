@@ -1,0 +1,15 @@
+// _carousel.scss
+@use "variables";
+
+.carousel {
+  .carousel-inner {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+}

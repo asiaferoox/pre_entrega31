@@ -1,0 +1,20 @@
+// _header.scss
+@import "variables";
+
+nav {
+    background-color: $color-primario;
+
+  
+  .navbar-brand {
+    color: white;
+    font-weight: bold;
+  }
+
+  .nav-link {
+    color: white;
+
+    &:hover {
+      color: $color-hover;
+    }
+  }
+}

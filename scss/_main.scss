@@ -1,0 +1,14 @@
+// main.scss
+@import "variables";
+@import "header";
+@import "carousel";
+@import "cards";
+@import "footer";
+@import "estilos";
+
+@use "variables";
+@use "header";
+@use "carousel";
+@use "cards";
+@use "footer";
+@use "estilos";

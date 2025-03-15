@@ -1,0 +1,17 @@
+// _footer.scss
+@use"variables";
+
+footer {
+  background-color: $color-primario;
+  color: white;
+  text-align: center;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-hover;
+    }
+  }
+}

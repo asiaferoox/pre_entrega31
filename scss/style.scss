@@ -1,0 +1,12 @@
+// _estilos.scss
+@use "variables";
+
+body {
+  background-color: $color-fondo;
+  font-family: $fuente-principal;
+  color: $color-texto;
+}
+
+h2 {
+  color: $color-primario;
+}
