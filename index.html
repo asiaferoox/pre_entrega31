@@ -6,6 +6,8 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
 
 
 
@@ -13,7 +15,7 @@
 
 <body>
     <header>
-     <!-- Navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="/">frutilla.com</a>
@@ -36,63 +38,76 @@
 
 <!-- Sección Acerca de -->
 <section id="acerca" class="container my-5">
-    <h2 class="text-center">somos amantes de la frutilla</h2>
+    <h2 class="text-center fade-in">somos amantes de la frutilla</h2>
     <p class="text-center">Somos una empresa dedicada a ofrecer los mejores servicios y productos para ti.</p>
 </section>
 
 <!-- Galería -->
-<section id="galeria" class="container my-5">
-    <h2 class="text-center">muestrass</h2>
+<section id="galeria" class="container my-5 text-center">
+    <h2 class="text-center fade-in">Muestras</h2>
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/magenes_frutilla/ehoxkdNR5_1200x0__1.jpg" class="d-block w-100" alt="Imagen 1">
+        <div class="carousel-inner">
+            <div class="carousel-item active fade-in">
+                <img src="/magenes_frutilla/ehoxkdNR5_1200x0__1.jpg" class="d-block w-100" alt="Imagen 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Postre de frutilla</h5>
+                    <p>Delicioso y cremoso, perfecto para cualquier ocasión.</p>
+                </div>
+            </div>
+            <div class="carousel-item fade-in">
+                <img src="/magenes_frutilla/mousee-frutillas.jpg" class="d-block w-100" alt="Imagen 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Mousse de Frutilla</h5>
+                    <p>Suave y refrescante, ideal para el verano.</p>
+                </div>
+            </div>
+            <div class="carousel-item fade-in">
+                <img src="/magenes_frutilla/postre-light-de-frutilla.png" class="d-block w-100" alt="Imagen 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Postre Light</h5>
+                    <p>Una opción deliciosa y saludable.</p>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item">
-          <img src="/magenes_frutilla/mousee-frutillas.jpg" class="d-block w-100" alt="Imagen 2">
-        </div>
-        <div class="carousel-item">
-          <img src="/magenes_frutilla/postre-light-de-frutilla.png" class="d-block w-100" alt="Imagen 3">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
     </div>
-  </section>
-  
+</section>
 
-  <!-- Testimonios -->
+
+
+<!-- Testimonios -->
 <section id="testimonios" class="container my-5">
-    <h2 class="text-center">Testimonios</h2>
+    <h2 class="text-center fade-in">Testimonios</h2>
     <blockquote class="blockquote text-center">
-      <p class="mb-0">"Excelente servicio, lo recomiendo totalmente."</p>
-      <footer class="blockquote-footer">Cliente Satisfecho</footer>
+    <p class="mb-0">"Excelente servicio, lo recomiendo totalmente."</p>
+    <footer class="blockquote-footer">Cliente Satisfecho</footer>
     </blockquote>
-  </section>
+</section>
 
-  
+
 <!-- Sección Beneficios de las Frutas -->
 <section class="container my-5">
     <h2 class="text-center">¿Por qué comer frutas es saludable?</h2>
     <p class="text-center">Las frutas son una fuente natural de vitaminas, minerales y antioxidantes esenciales para nuestro cuerpo.</p>
     <div class="row g-4 mt-4">
-        <div class="col-md-4">
+        <div class="col-md-4 fade-in">
             <div class="card shadow text-center p-3">
                 <h5 class="card-title">Ricas en vitaminas</h5>
                 <p class="card-text">Las frutas aportan una gran cantidad de vitaminas como la C y la A, que fortalecen el sistema inmunológico.</p>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 fade-in">
             <div class="card shadow text-center p-3">
                 <h5 class="card-title">Fuente de fibra</h5>
                 <p class="card-text">Ayudan a mejorar la digestión y mantener un buen tránsito intestinal gracias a su contenido de fibra.</p>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 fade-in">
             <div class="card shadow text-center p-3">
                 <h5 class="card-title">Hidratación natural</h5>
                 <p class="card-text">Muchas frutas tienen un alto contenido de agua, lo que ayuda a mantenernos hidratados de forma natural.</p>
@@ -100,19 +115,28 @@
         </div>
     </div>
 </section>
-  
 
-  <!-- Footer -->
-<footer class="bg-dark text-light py-4">
+
+<!-- Footer -->
+
+<footer class="footer">
     <div class="container text-center">
-      <p class="mb-1">&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#" class="text-light">Inicio</a></li>
-        <li class="list-inline-item"><a href="#" class="text-light">Nosotros</a></li>
-        <li class="list-inline-item"><a href="#" class="text-light">Contacto</a></li>
-      </ul>
+        <p class="footer-text">&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
+
+        <ul class="footer-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
     </div>
-  </footer>
-  
+</footer>
+
+
 </body>
 </html>

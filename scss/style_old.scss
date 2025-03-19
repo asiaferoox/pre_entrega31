@@ -1,8 +1,14 @@
-@use 'variables';
+
+
+
 @use 'carousel';
-@use "testimonios"; // Importa el archivo correctamente
+@use 'variables';
+@use 'testimonios';
 @use 'footer';
 @use 'animations';
+
+
+
 
 body {
     background: $background-light;
@@ -30,7 +36,7 @@ h1, h2 {
     transition: all 0.3s ease-in-out;
 
     &:hover {
-        transform: scale(1.1);
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    }
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
 }
