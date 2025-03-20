@@ -1,0 +1,54 @@
+.contacto {
+    .container {
+        max-width: 800px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #d9534f; // Un tono rojizo que puede combinar con la temática de frutilla
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #555;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+
+        .form-label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-control {
+            border: 2px solid #d9534f;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease-in-out;
+
+            &:focus {
+                border-color: #c9302c;
+                box-shadow: 0 0 5px rgba(217, 83, 79, 0.5);
+            }
+        }
+
+        .btn-primary {
+            background-color: #d9534f;
+            border: none;
+            padding: 10px;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: #c9302c;
+            }
+        }
+    }
+}

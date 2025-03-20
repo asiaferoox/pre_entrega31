@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #FFB6C1 !important; // Rosa pastel
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    .navbar-brand, .nav-link {
+        color: #3E2723 !important;
+        font-weight: bold;
+    }
+    .nav-link:hover {
+        color: white !important;
+    }
+}

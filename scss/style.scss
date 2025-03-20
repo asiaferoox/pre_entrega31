@@ -1,6 +1,11 @@
-/* Reinicio básico */
-body {
-    background: #222;
-    color: white;
-  }
-  
+@use 'components/general';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/animations';
+
+
+@use 'pages/index';
+@use 'pages/galeria';
+@use 'pages/acerca';
+@use 'pages/testimonios';
+@use 'pages/contacto';
